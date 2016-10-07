@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SevenShadow.Finance.Core
+{
+    public interface IFinancialStatementCollection
+    {
+        IList<IFinancialStatement> Statements { get; set; }
+    }
+}
